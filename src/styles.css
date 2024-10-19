@@ -120,6 +120,7 @@ p {
   .tabs {
     flex-direction: column;
     gap: 10px;
+    display: grid;
     justify-content: center;
   }
 
@@ -127,9 +128,10 @@ p {
   .section1,
   .metric,
   .device-card {
-    padding: 15px;
+    padding: 5px 0px;
     width: 100%;
     margin: 0 auto 15px;
+    text-align: center;
   }
 
   .device-card {
@@ -162,7 +164,7 @@ p {
   }
 
   .tab-link {
-    width: 100%;
+    width: 80%;
     text-align: center;
   }
 
@@ -177,6 +179,12 @@ p {
     gap: 20px;
   }
 
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+
   .line {
     width: 50%;
     height: 200px;
@@ -188,6 +196,10 @@ p {
   }
 
   .metric {
+    width: 80%;
+  }
+
+  .device-card {
     width: 80%;
   }
 
